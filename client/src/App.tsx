@@ -1,5 +1,4 @@
 import { useState } from 'react';
-import reactLogo from './assets/react.svg';
 import viteLogo from '/vite.svg';
 import './App.css';
 import dataApi from './api/data';
@@ -14,6 +13,9 @@ function App() {
 
   return (
     <>
+      <header style={{ backgroundColor: 'aqua' }}>
+        初期設定のおすすめのやり方
+      </header>
       <div>
         <button onClick={clickHandler}>Click Here!!</button>
         <a href="https://vitejs.dev" target="_blank">
